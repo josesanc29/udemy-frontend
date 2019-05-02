@@ -1,0 +1,22 @@
+<div class="row animated fadeIn">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <form ngNativeValidate [formGroup]="formHosp" (ngSubmit)="registrarHospital()" class="form-horizontal form-material" id="addhospiform" action="index.html">
+                    <div class="form-group">
+                      <div class="col-xs-12">
+                      <label>Nombre del nuevo Hospital</label>
+                      <input type="text" name="nombre" class="form-control" placeholder="Nombre Hospital" required>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <button class="btn btn-info" type="submit">Registrarme</button>
+                        </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
+         
